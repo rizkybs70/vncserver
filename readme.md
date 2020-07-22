@@ -2,7 +2,7 @@
 
 #  Setting up a VNC Server on the Debian
 
-![Raspberry Pi VNC Server](https://lh3.googleusercontent.com/MgYbfR6gHgGFcaEempgLqvpJAaXZ1-XbDUcS2PVvIxTIPnATuPeiER3JjGtb9Dev7w)
+![Raspberry Pi VNC Server](https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/styles/interior_page_image__519x374_/public/VNC%20Logo.jpg?itok=975ZqpFq)
 
 
 VNC is a special protocol that is designed to allow one device to control another remotely. This protocol works differently to the  Remote Desktop Protocol  that Windows uses.
