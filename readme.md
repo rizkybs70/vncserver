@@ -106,7 +106,7 @@ As this script we use resolution `800x550` and user `root`
 
 For example, the setting we used is,  **192.168.1.108:1**
 
-![realvnc connect screen](https://1.bp.blogspot.com/-ctfgnV4c3SM/XxgYk9cnbOI/AAAAAAAAOis/Uf6VPlWq2eEOEpPE2h2Sr2rwnB88DE1FQCNcBGAsYHQ/s640/Screenshot_2.png)  
+![realvnc connect screen](https://bit.ly/2WK2R4m)  
 **4.**  Now, press the “**Connect**” button.
 
 
