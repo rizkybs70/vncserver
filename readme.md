@@ -1,4 +1,5 @@
 
+
 #  Setting up a VNC Server on the Debian
 
 
@@ -103,17 +104,9 @@ su - root -c '/usr/bin/tightvncserver :1 -geometry 800x550 -depth 24'
 ```
 As this script we use resolution `800x550` and user `root`
 
-
-For example, the setting we used is,  **192.168.1.108:1**
-
+#### Setting up a VNC client on your PC
+**1.**  Input ip address your machine linux to VNC client.
+**2.**  Connect and input data with your data from when you setup.
 ![realvnc connect screen](https://bit.ly/2WK2R4m)  
-**4.**  Now, press the “**Connect**” button.
-
-
-
-
-
-
-
 ## Source
 [pimylifeup.com](https://pimylifeup.com/raspberry-pi-vnc-server/)
