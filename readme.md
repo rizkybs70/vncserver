@@ -106,10 +106,33 @@ su - root -c '/usr/bin/tightvncserver :1 -geometry 800x550 -depth 24'
 ```
 As this script we use resolution `800x550` and user `root`
 
-#### Setting up a VNC client on your PC
+## Setting up a VNC client on your PC
 **1.**  Input ip address your machine linux and add port `:1`  to VNC client.
 
 **2.**  Connect and input data with your data from when you setup.
-![realvnc connect screen](https://bit.ly/2WK2R4m)  
+![realvnc connect screen](https://bit.ly/2WK2R4m)
+
+## Change Theme to XFCE
+
+**1.**  Open file xstartup locate at `/root/.vnc/xstartup`
+```
+nano /root/.vnc/xstartup
+```
+
+**2.** Replace all file content with. `ctrl+k` to erase one line
+```
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+startxfce4 &
+
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+```
+
+**3.** Save `ctrl+x`, y and enter
+
 ## Source
 [pimylifeup.com](https://pimylifeup.com/raspberry-pi-vnc-server/)
