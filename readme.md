@@ -1,5 +1,5 @@
 
-# WAMP stack built with Docker Compose
+#  Setting up a VNC Server on the Debian
 
 
 VNC is a special protocol that is designed to allow one device to control another remotely. This protocol works differently to the  Remote Desktop Protocol  that Windows uses.
