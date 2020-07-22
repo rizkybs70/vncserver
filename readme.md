@@ -104,7 +104,10 @@ su - root -c '/usr/bin/tightvncserver :1 -geometry 800x550 -depth 24'
 As this script we use resolution `800x550` and user `root`
 
 
+For example, the setting we used is,  **192.168.1.108:1**
 
+![realvnc connect screen](https://1.bp.blogspot.com/-QajO6YWtdJ0/XxgYJzuCX0I/AAAAAAAAOig/qOEzoYELpgMDXH2x1XhVd4hi0Q8s4-xugCNcBGAsYHQ/s400/Screenshot_2.png)  
+**4.**  Now, press the “**Connect**” button.
 
 
 
