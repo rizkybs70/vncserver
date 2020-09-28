@@ -36,6 +36,10 @@ As the  `tightvncserver`  package is available through the linux repository, all
 ```
 sudo apt install tightvncserver
 ```
+```
+sudo apt install tigervnc-common
+```
+
 #### Configuring the VNC Server
 Now that you have the VNC server installed to your machine, we can now learn how to configure it so that it is ready for connections.
 
